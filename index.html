@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="maskgroup.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wingify Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h2>Lorem ipsum dolor sit amet,<br> consectetur</h2>
+                <ul>
+                    <li>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>You can use an Emoji for the circular bullet icon.</p>
+                    </li>
+                    <li>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor.</p>
+                    </li>
+                    <li>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor.</p>
+                    </li>
+                    <li>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="form-box">
+                <h3>Lorem ipsum dolor</h3>
+                <form id="demoForm">
+                    <div class="form-group" data-field="email">
+                        <label class="required" for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                        <span class="error-message">Please add a valid email address</span>
+                    </div>
+
+                    <div class="form-group" data-field="date">
+                        <label class="required">Preferred Demo Date</label>
+                        <div class="date-select-container">
+                            <select id="day">
+                                <option value="">Day</option>
+                            </select>
+                            <select id="month">
+                                <option value="">Month</option>
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                            </select>
+                            <select id="year">
+                                <option value="">Year</option>
+                            </select>
+                        </div>
+                        <span class="error-message">Please enter a valid date</span>
+                    </div>
+
+                    <div class="form-group" data-field="department">
+                        <label class="required" for="department">Your Department</label>
+                        <select id="department">
+                            <option value="">Choose from the list</option>
+                            <option value="sales">Sales</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="engineering">Engineering</option>
+                        </select>
+                        <span class="error-message">Please select a field</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product">Which product would you like to take a demo for?</label>
+                        <textarea id="product" rows="4" placeholder="Tell us more about your requirements..."></textarea>
+                    </div>
+
+                    <div class="radio-group" data-field="source">
+                        <fieldset>
+                            <legend>How did you hear about us?</legend>
+                            <label>
+                                <input type="radio" name="source" value="social">
+                                Social Media
+                            </label>
+                            <label>
+                                <input type="radio" name="source" value="ads">
+                                Google Ads
+                            </label>
+                        </fieldset>
+                        <span class="error-message">Please select an option</span>
+                    </div>
+
+                    <button type="submit" class="submit-button">Request a Demo</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="container">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <img src="maskgroup.png" class="card-img" alt="Abstract product background">
+                        <div class="card-overlay">
+                             <h3>Card Title 1</h3>
+                             <p>This is the description for the first card.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <img src="maskgroup.png" class="card-img" alt="Abstract product background">
+                        <div class="card-overlay">
+                             <h3>Card Title 2</h3>
+                             <p>This is the description for the second card.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
